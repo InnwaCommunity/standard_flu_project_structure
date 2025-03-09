@@ -12,13 +12,13 @@ android {
     productFlavors {
         dev {
             dimension "flavor-type"
-            applicationId "com.mydaygroup.supercommerce.staging"
-            resValue "string", "app_name", "MyDay Dev"
+            applicationId "com.ncm.flavordev.staging"
+            resValue "string", "app_name", "Flavor Dev"
         }
         prod {
             dimension "flavor-type"
-            applicationId "com.mydaygroup.supercommerce"
-            resValue "string", "app_name", "MyDay"
+            applicationId "com.ncm.flavortesting"
+            resValue "string", "app_name", "Flavor Testing"
         }
     }
     namespace = "com.example.project_structure"
